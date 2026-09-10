@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vikrant Singh Rawat — Senior Android Developer</title>
+<meta name="description" content="Senior Android Developer — Kotlin, Jetpack Compose, AOSP, Bluetooth, Android Framework, AI-powered apps.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Mobile layer chips (shown under 900px) -->
+<nav class="rail-mobile" aria-label="Stack layers">
+  <button class="chip" data-layer="application">Application</button>
+  <button class="chip" data-layer="framework">Framework</button>
+  <button class="chip" data-layer="hal">HAL / Hardware</button>
+  <button class="chip" data-layer="kernel">Kernel / Device</button>
+</nav>
+
+<div class="page">
+
+  <!-- Persistent left rail: the Android stack -->
+  <aside class="rail" aria-label="Android architecture stack">
+    <div class="rail-inner">
+      <div class="rail-label">The stack I build on</div>
+      <ol class="stack">
+        <li class="stack-layer" data-layer="application">
+          <span class="stack-dot"></span>
+          <span class="stack-name">Application</span>
+          <span class="stack-sub">Compose · MVVM · AI</span>
+        </li>
+        <li class="stack-layer" data-layer="framework">
+          <span class="stack-dot"></span>
+          <span class="stack-name">Framework</span>
+          <span class="stack-sub">Services · AIDL · Binder</span>
+        </li>
+        <li class="stack-layer" data-layer="hal">
+          <span class="stack-dot"></span>
+          <span class="stack-name">HAL / Hardware</span>
+          <span class="stack-sub">Bluetooth · Serial · BLE</span>
+        </li>
+        <li class="stack-layer" data-layer="kernel">
+          <span class="stack-dot"></span>
+          <span class="stack-name">Kernel / Device</span>
+          <span class="stack-sub">AOSP · Automotive · Wearable</span>
+        </li>
+      </ol>
+      <div class="rail-foot">
+        <a href="mailto:vickyrawat.rawat6@gmail.com">Email</a>
+        <a href="https://linkedin.com/in/vikrant-rawat-8911a8103" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/VSRAndroid" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://stackoverflow.com/users/6625307" target="_blank" rel="noopener">Stack Overflow</a>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+
+    <!-- HERO -->
+    <header class="hero" id="top">
+      <p class="hero-eyebrow">New Delhi, India · Available for senior Android roles</p>
+      <h1 class="hero-title">Vikrant Singh Rawat</h1>
+      <p class="hero-role">Senior Android Developer — from Compose screens down to the Binder call underneath them.</p>
+      <p class="hero-desc">Eight years building Android software that sits at every layer of the stack: banking apps with biometric auth, an AI chat assistant on Gemini and OpenAI, AR glasses at the framework level, and Bluetooth-connected hardware talking to HAL. I move down the stack when the bug does.</p>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">8+</span><span class="stat-label">years shipping Android</span></div>
+        <div class="stat"><span class="stat-num">6</span><span class="stat-label">industries — banking to automotive</span></div>
+        <div class="stat"><span class="stat-num">4</span><span class="stat-label">stack layers, hands-on</span></div>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <h2 class="section-title">What I actually do</h2>
+      <p class="lede">Most Android developers stop at the SDK. I go past it. When an app needs to talk to a Bluetooth module over serial, negotiate a HAL, or route through AIDL, I don't wait for a framework fix — I write the framework fix. That range is what's let me move between banking, AR glasses, automotive, and AI products without relearning the job each time.</p>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>App layer</h3>
+          <p>Kotlin, Jetpack Compose, MVVM, Clean Architecture, Coroutines &amp; Flow. Conversational UI, media playback, secure banking flows.</p>
+        </div>
+        <div class="about-card">
+          <h3>Framework layer</h3>
+          <p>AOSP, Android Services, AIDL/Binder IPC, system middleware — the layer most app developers never touch.</p>
+        </div>
+        <div class="about-card">
+          <h3>Hardware layer</h3>
+          <p>HAL integration, Bluetooth Classic/BLE, serial communication with external devices — wearables, IoT sensors, AR hardware.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <h2 class="section-title">Experience</h2>
+
+      <article class="job" data-layers="application,framework">
+        <div class="job-head">
+          <div>
+            <h3 class="job-role">Senior Software Engineer</h3>
+            <p class="job-org">Publicis Re:sources</p>
+          </div>
+          <p class="job-dates">Nov 2023 – Jul 2026</p>
+        </div>
+        <p class="job-projects">Marcel Application · Marcel AI Chat Assistant</p>
+        <ul class="job-points">
+          <li>Built and shipped the Marcel AI Chat Assistant end-to-end, integrating OpenAI and Google Gemini APIs for conversation, content generation, and document summarization.</li>
+          <li>Designed the conversational UI in Jetpack Compose on an MVVM / Clean Architecture foundation with Coroutines and Retrofit.</li>
+          <li>Added ExoPlayer/Media3 for lifecycle-aware, adaptive media playback inside the chat experience.</li>
+          <li>Owned features from requirements through production deployment, working across product, backend, and QA.</li>
+        </ul>
+        <div class="job-tags">
+          <span class="tag" data-layer="application">Application</span>
+          <span class="tag" data-layer="framework">Framework</span>
+        </div>
+      </article>
+
+      <article class="job" data-layers="application,framework,hal,kernel">
+        <div class="job-head">
+          <div>
+            <h3 class="job-role">Senior Software Engineer</h3>
+            <p class="job-org">Wipro Pvt. Ltd.</p>
+          </div>
+          <p class="job-dates">Feb 2022 – Nov 2023</p>
+        </div>
+        <p class="job-projects">ARGlass (LG &amp; Meta Spectacles) · Tripsync · Lakshmi Vilas Bank Mobile Banking</p>
+        <ul class="job-points">
+          <li>Shipped a mobile banking app with OTP and biometric authentication, onboarding, and transaction history over Kotlin, MVVM, and Compose.</li>
+          <li>Built Gallery, Video Player, and Cooking apps for LG and Meta ARGlass/Spectacles, working directly with Android Framework/AOSP for device-specific behavior.</li>
+          <li>Integrated AIDL/Binder IPC and HAL components to bridge app logic with system and hardware services.</li>
+          <li>Led phone connectivity end-to-end — proposal, prototyping, architecture, and delivery — over Bluetooth Classic/BLE.</li>
+          <li>Integrated Google Routes, Places, and Fused Location with Firebase for Ford's Tripsync automotive project.</li>
+        </ul>
+        <div class="job-tags">
+          <span class="tag" data-layer="application">Application</span>
+          <span class="tag" data-layer="framework">Framework</span>
+          <span class="tag" data-layer="hal">HAL / Hardware</span>
+          <span class="tag" data-layer="kernel">Kernel / Device</span>
+        </div>
+      </article>
+
+      <article class="job" data-layers="application">
+        <div class="job-head">
+          <div>
+            <h3 class="job-role">Android Developer</h3>
+            <p class="job-org">Getkart Pvt. Ltd.</p>
+          </div>
+          <p class="job-dates">Jan 2021 – Jan 2022</p>
+        </div>
+        <p class="job-projects">PickZon (Social) · Getkart (E-Commerce)</p>
+        <ul class="job-points">
+          <li>Raised user engagement 20% through targeted performance work and crash reduction.</li>
+          <li>Built a social feed with live streaming and short-video playback on ExoPlayer/Media3.</li>
+          <li>Compared SurfaceView and TextureView for scrolling performance, transparency, and rendering fit.</li>
+          <li>Shipped on Kotlin, MVVM, Compose, Coroutines, Retrofit, Hilt, and Room.</li>
+        </ul>
+        <div class="job-tags">
+          <span class="tag" data-layer="application">Application</span>
+        </div>
+      </article>
+
+      <article class="job" data-layers="application,hal">
+        <div class="job-head">
+          <div>
+            <h3 class="job-role">Android Developer</h3>
+            <p class="job-org">Nucleus Microsystems Pvt. Ltd.</p>
+          </div>
+          <p class="job-dates">May 2019 – Dec 2020</p>
+        </div>
+        <p class="job-projects">GPS Platform Apps · ThermoSense IoT · Geotask</p>
+        <ul class="job-points">
+          <li>Built real-time location tracking, geofencing, and marker clustering on Google Maps and Fused Location.</li>
+          <li>Developed ThermoSense, an IoT app talking to external hardware over Bluetooth and serial communication.</li>
+          <li>Kept background location and data-processing workflows stable under real-world device conditions.</li>
+        </ul>
+        <div class="job-tags">
+          <span class="tag" data-layer="application">Application</span>
+          <span class="tag" data-layer="hal">HAL / Hardware</span>
+        </div>
+      </article>
+
+      <article class="job" data-layers="application">
+        <div class="job-head">
+          <div>
+            <h3 class="job-role">Android Developer</h3>
+            <p class="job-org">Seven Star Web Solutions</p>
+          </div>
+          <p class="job-dates">Mar 2018 – Feb 2019</p>
+        </div>
+        <p class="job-projects">Cankush (E-Commerce) · POS Application</p>
+        <ul class="job-points">
+          <li>Built and maintained Android apps in Java on the Android SDK with REST APIs and third-party libraries.</li>
+          <li>Debugged stability and performance issues across production releases.</li>
+        </ul>
+        <div class="job-tags">
+          <span class="tag" data-layer="application">Application</span>
+        </div>
+      </article>
+
+      <article class="job" data-layers="application">
+        <div class="job-head">
+          <div>
+            <h3 class="job-role">Jr. Android Developer</h3>
+            <p class="job-org">Beyondroot Technologies Services</p>
+          </div>
+          <p class="job-dates">Jul 2016 – Feb 2018</p>
+        </div>
+        <p class="job-projects">Hanggy Food · NHP Indra Dhanush</p>
+        <ul class="job-points">
+          <li>Built app screens and user workflows in Java and Kotlin against product and UX specs.</li>
+          <li>Integrated REST APIs, push notifications, and payment gateways.</li>
+        </ul>
+        <div class="job-tags">
+          <span class="tag" data-layer="application">Application</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <h2 class="section-title">Skills, by layer</h2>
+      <div class="skills-grid">
+        <div class="skill-block" data-layer="application">
+          <h3>Application</h3>
+          <p class="skill-list">Kotlin, Java, Jetpack Compose, Android SDK, XML, MVVM, MVI, MVP, Clean Architecture, Coroutines, Flow, StateFlow, Room, Retrofit, Hilt/Dagger, ExoPlayer/Media3, OpenAI &amp; Gemini APIs, Firebase, GraphQL</p>
+        </div>
+        <div class="skill-block" data-layer="framework">
+          <h3>Framework</h3>
+          <p class="skill-list">AOSP, Android Framework, Android Services, AIDL, Binder IPC, System Services, Android Middleware</p>
+        </div>
+        <div class="skill-block" data-layer="hal">
+          <h3>HAL / Hardware</h3>
+          <p class="skill-list">HAL Integration, Bluetooth Classic, BLE, Serial Communication, Wearable Devices, AR Devices</p>
+        </div>
+        <div class="skill-block" data-layer="kernel">
+          <h3>Kernel / Device</h3>
+          <p class="skill-list">Android Automotive concepts, hardware-integrated platforms, device-specific behavior investigation</p>
+        </div>
+      </div>
+      <div class="skill-extra">
+        <div>
+          <h3>Also on hand</h3>
+          <p class="skill-list">Google Maps, Places &amp; Routes APIs, Fused Location, Geofencing, Mapbox, Biometric &amp; OTP authentication, JUnit, Mockito, Git, Azure CI/CD, Flutter, React Native</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION + CERTS -->
+    <section class="section" id="education">
+      <h2 class="section-title">Education &amp; certifications</h2>
+      <div class="edu-grid">
+        <div class="edu-col">
+          <h3>Education</h3>
+          <ul class="edu-list">
+            <li><span class="edu-deg">B.Tech, Computer Science &amp; Engineering</span><span class="edu-org">Birla Institute of Applied Sciences · 2015</span></li>
+            <li><span class="edu-deg">Diploma, Computer Science &amp; Engineering</span><span class="edu-org">UBTER, Roorkee · 2012</span></li>
+          </ul>
+        </div>
+        <div class="edu-col">
+          <h3>Certifications</h3>
+          <ul class="edu-list">
+            <li><span class="edu-deg">Android Trainee</span><span class="edu-org">Neotech System Services · 2016</span></li>
+            <li><span class="edu-deg">Jetpack Masterclass</span><span class="edu-org">Udemy</span></li>
+            <li><span class="edu-deg">Advanced Android</span><span class="edu-org">Udemy · 2023</span></li>
+            <li><span class="edu-deg">React Native Production</span><span class="edu-org">Udemy</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <footer class="footer" id="contact">
+      <h2 class="footer-title">Building something that needs someone across the whole stack?</h2>
+      <p class="footer-desc">Open to Senior Android Developer, Android Lead, and Android Framework / AOSP roles.</p>
+      <div class="footer-links">
+        <a class="footer-link primary" href="mailto:vickyrawat.rawat6@gmail.com">vickyrawat.rawat6@gmail.com</a>
+        <a class="footer-link" href="tel:+919999367295">+91 99993 67295</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://linkedin.com/in/vikrant-rawat-8911a8103" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/VSRAndroid" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://stackoverflow.com/users/6625307" target="_blank" rel="noopener">Stack Overflow</a>
+      </div>
+    </footer>
+
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
